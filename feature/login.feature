@@ -1,6 +1,6 @@
 Feature: Test Salesforce login functionality
   I want to use this feature file to test the login functionality of our salesforce application
-
+@smoke 
   Scenario: login using valid credentials
     Given I open chrome browser
     And I go to salesforce home page

@@ -14,7 +14,8 @@ import cucumber.api.junit.Cucumber;
 						 "html:report/cucumber",
 						 "json:report/cucumber.json",
 						 "rerun:rerun/failed_scenario.txt"},//this is added for rerun or FailedRunner or failed_scenario.txt
-				 monochrome = true
+				 monochrome = true,
+						 tags = {"@smoke"}
 				 
 )
 
